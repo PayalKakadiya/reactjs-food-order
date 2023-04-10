@@ -10,7 +10,7 @@ function App() {
   function HideCartHandler(){setCartIsShown(false)}
   return (
     <CartProvider>
-    
+    <Cart/>
       {cartIsShown && <div>Cart....</div>}
       <Header onShowCart={ ShowCartHandler} />
       <main>
